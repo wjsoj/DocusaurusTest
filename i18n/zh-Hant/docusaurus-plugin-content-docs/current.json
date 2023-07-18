@@ -4,15 +4,15 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.教程 基础部分": {
-    "message": "Tutorial - Basics",
+    "message": "教程 基礎部分",
     "description": "The label for category 教程 基础部分 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.教程 基础部分.link.generated-index.description": {
-    "message": "5 minutes to learn the most important Docusaurus concepts.",
+    "message": "5分鐘學會 Docusaurus 中的大多數核心概念",
     "description": "The generated-index page description for category 教程 基础部分 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.教程 额外部分": {
-    "message": "Tutorial - Extras",
+    "message": "教程 額外部分",
     "description": "The label for category 教程 额外部分 in sidebar tutorialSidebar"
   }
 }

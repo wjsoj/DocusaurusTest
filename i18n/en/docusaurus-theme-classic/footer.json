@@ -13,7 +13,7 @@
   },
   "link.item.label.原生教程": {
     "message": "Tutorial",
-    "description": "The label of footer link with label=原生教程 linking to /docs/intro"
+    "description": "The label of footer link with label=原生教程 linking to /docs/origin/介绍"
   },
   "link.item.label.Stack Overflow": {
     "message": "Stack Overflow",
@@ -42,5 +42,9 @@
   "logo.alt": {
     "message": "Meta Opensource logo",
     "description": "The alt text of footer logo"
+  },
+  "link.item.label.快速上手": {
+    "message": "Getting Started",
+    "description": "The label of footer link with label=快速上手 linking to /docs/self/快速上手"
   }
 }

@@ -28,8 +28,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-CN',
-    locales: ['en', 'zh-CN', 'zh-TW'],
+    defaultLocale: 'zh-Hans',
+    locales: ['en', 'zh-Hans', 'zh-Hant'],
     localeConfigs: {
       en: {
         htmlLang: 'en-GB',
@@ -51,7 +51,9 @@ const config = {
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
+          blogSidebarTitle: '最近博文',
           showReadingTime: true,
+          postsPerPage: 'ALL',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -98,6 +100,12 @@ const config = {
             position: 'left',
             label: '教程',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'selfSidebar',
+            position: 'left',
+            label: '介绍',
+          },
           {to: '/blog', label: '博客', position: 'left'},
           {
             type: 'localeDropdown',
@@ -118,7 +126,11 @@ const config = {
             items: [
               {
                 label: '原生教程',
-                to: '/docs/intro',
+                to: '/docs/origin/介绍',
+              },
+              {
+                label: '快速上手',
+                to: '/docs/self/快速上手',
               },
             ],
           },
